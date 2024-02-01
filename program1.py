@@ -16,4 +16,5 @@ while count <20:
 	else:
 		GPIO.output(37,GPIO.LOW)
 	sleep(1)
+	count=count+1
 GPIO.cleanup()
